@@ -66,7 +66,7 @@
     "tailwindcss": "^2.2.19"
   },
   "engines": {
-    "node": "12.22.12"
+    "node": "12.* || 14.* || >= 16"
   },
   "ember": {
     "edition": "octane"
