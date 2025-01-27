@@ -1,0 +1,13 @@
+{{page-title "Frontend"}}
+
+{{#if getUrl }}
+<div class="bg-white">
+  <Home::Navbar />
+  <Home::Hero />
+  <Home::Pricing />
+  <Home::Footer />
+</div>
+{{else}}
+    <Sidebar />
+    {{outlet}}
+{{/if}}
